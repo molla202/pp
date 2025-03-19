@@ -70,14 +70,8 @@ export function Faucet() {
       <CardHeader className="border-b border-blue-500/20 pb-6">
         <div className="flex flex-col items-center gap-2 text-center">
           {/* Logo */}
-          <div className="w-20 h-20 rounded-full bg-blue-900/50 border-2 border-blue-400/30 flex items-center justify-center mb-2 overflow-hidden">
-            <Image
-              src="/placeholder.svg?height=80&width=80"
-              alt="0G Logo"
-              width={80}
-              height={80}
-              className="object-cover"
-            />
+          <div className="w-24 h-24 rounded-full bg-blue-900/50 border-2 border-blue-400/30 flex items-center justify-center mb-2 overflow-hidden">
+            <Image src="/0g-logo.png" alt="0G Logo" width={96} height={96} className="object-contain" />
           </div>
           <CardTitle className="text-2xl font-bold">0G Ağı Faucet</CardTitle>
           <CardDescription className="text-gray-400 mt-1">Test ağında kullanmak için 0G tokenleri alın</CardDescription>
